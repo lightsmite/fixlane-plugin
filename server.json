@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.lightsmite/fixlane",
+  "title": "Fixlane",
+  "description": "Known security incidents in developer software, with reviewed fix procedures.",
+  "version": "1.0.0",
+  "websiteUrl": "https://fixlane.poparecon.com/",
+  "repository": {
+    "url": "https://github.com/lightsmite/fixlane-plugin",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fixlane.poparecon.com/mcp"
+    }
+  ]
+}

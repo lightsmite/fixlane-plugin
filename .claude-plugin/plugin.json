@@ -1,0 +1,19 @@
+{
+  "name": "fixlane",
+  "displayName": "Fixlane",
+  "version": "1.0.0",
+  "description": "Check the developer software on your machine against known security incidents and get reviewed fix procedures, from the public Fixlane server.",
+  "author": {
+    "name": "lightsmite",
+    "url": "https://github.com/lightsmite"
+  },
+  "homepage": "https://fixlane.poparecon.com/",
+  "repository": "https://github.com/lightsmite/fixlane-plugin",
+  "license": "MIT",
+  "keywords": ["security", "vulnerability", "cve", "incident", "patch", "developer-tools", "mcp"],
+  "icon": "./icon.png",
+  "documentationUrl": "https://fixlane.poparecon.com/docs",
+  "supportUrl": "https://fixlane.poparecon.com/support",
+  "privacyPolicyUrl": "https://fixlane.poparecon.com/privacy",
+  "termsOfServiceUrl": "https://fixlane.poparecon.com/terms"
+}

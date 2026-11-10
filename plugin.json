@@ -1,0 +1,38 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "fixlane",
+  "version": "1.0.0",
+  "description": "Check the developer software on your machine against known security incidents and get reviewed fix procedures, from the public Fixlane server.",
+  "author": {
+    "name": "lightsmite",
+    "url": "https://github.com/lightsmite"
+  },
+  "homepage": "https://fixlane.poparecon.com/",
+  "repository": "https://github.com/lightsmite/fixlane-plugin",
+  "license": "MIT",
+  "keywords": ["security", "vulnerability", "cve", "incident", "patch", "developer-tools", "mcp"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Fixlane",
+        "shortDescription": "Security fixes for your tools",
+        "longDescription": "Fixlane checks the developer software on your computer against known, reviewed security incidents. Ask whether a program such as Chrome, Node.js or VS Code is safe, or let the assistant list what is installed (names and versions only) and compare it with the versions that fix each incident. For every affected program Fixlane returns a reviewed fix procedure: a read-only check first, then the update, which the assistant shows you and runs only after you agree. Phones get manual steps only. The data is public and read-only, no account is needed and nothing you ask is stored. Fixlane covers actively exploited vulnerabilities and malicious packages in developer tools; it is not a general antivirus and does not cover every program.",
+        "developerName": "lightsmite",
+        "category": "Developer Tools",
+        "capabilities": ["Read"],
+        "websiteURL": "https://fixlane.poparecon.com/",
+        "supportURL": "https://fixlane.poparecon.com/support",
+        "privacyPolicyURL": "https://fixlane.poparecon.com/privacy",
+        "termsOfServiceURL": "https://fixlane.poparecon.com/terms",
+        "defaultPrompt": [
+          "Is my computer safe? Check my installed developer software.",
+          "Is my version of Chrome affected by a known security issue?",
+          "What are the newest security incidents for macOS?"
+        ],
+        "brandColor": "#0F2A3D",
+        "composerIcon": "./icon.png",
+        "logo": "./icon.png"
+      }
+    }
+  }
+}

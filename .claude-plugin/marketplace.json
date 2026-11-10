@@ -1,0 +1,17 @@
+{
+  "name": "fixlane",
+  "description": "Fixlane: known security incidents in developer software, with reviewed fix procedures.",
+  "owner": {
+    "name": "lightsmite",
+    "url": "https://github.com/lightsmite"
+  },
+  "plugins": [
+    {
+      "name": "fixlane",
+      "source": "./",
+      "description": "Check the developer software on your machine against known security incidents and get reviewed fix procedures.",
+      "category": "security",
+      "tags": ["security", "vulnerability", "cve", "mcp"]
+    }
+  ]
+}
