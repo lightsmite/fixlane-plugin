@@ -39,31 +39,31 @@
             {
               "description": "Check one program",
               "prompt": "Is Google Chrome on my Linux machine affected by any known security issue?",
-              "tools_triggered": ["check_software"],
+              "tools_triggered": "check_software",
               "expected_behavior": "Lists the Chrome incidents with severity, \"exploited in the wild\", fixed version and incident id, and offers the fix procedure."
             },
             {
               "description": "Get a fix procedure",
               "prompt": "Show me the fix procedure for Fixlane incident 2010 on Linux.",
-              "tools_triggered": ["get_fix_prompt"],
+              "tools_triggered": "get_fix_prompt",
               "expected_behavior": "Shows the danger, the fixed version and the procedure (read-only detection first, then the fix) and asks before changing anything."
             },
             {
               "description": "Newest incidents",
               "prompt": "What are the three newest security incidents for macOS?",
-              "tools_triggered": ["latest_incidents"],
+              "tools_triggered": "latest_incidents",
               "expected_behavior": "Lists three incidents, newest first, with severity and date."
             },
             {
               "description": "Digest",
               "prompt": "Give me one fix prompt for everything I should update now on Linux.",
-              "tools_triggered": ["get_digest"],
+              "tools_triggered": "get_digest",
               "expected_behavior": "Summarizes the digest (components, critical, exploited) and shows the digest procedure; asks before running it."
             },
             {
               "description": "Check an inventory",
               "prompt": "My Linux machine has Google Chrome 140.0.7339.0 and Node.js (I do not know the version). Which of them have known issues?",
-              "tools_triggered": ["check_inventory"],
+              "tools_triggered": "check_inventory",
               "expected_behavior": "Chrome is affected (incident id and fixed version are shown); Node.js is unknown because no version was given, not \"safe\"; offers the fix procedure for Chrome."
             }
           ],
