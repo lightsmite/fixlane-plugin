@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "fixlane": {
+    "fixlane-security": {
       "type": "http",
       "url": "https://fixlane.poparecon.com/mcp"
     }

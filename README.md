@@ -46,7 +46,7 @@ Any other MCP client (Streamable HTTP, no authentication):
 ```json
 {
   "mcpServers": {
-    "fixlane": {
+    "fixlane-security": {
       "type": "http",
       "url": "https://fixlane.poparecon.com/mcp"
     }
@@ -54,7 +54,7 @@ Any other MCP client (Streamable HTTP, no authentication):
 }
 ```
 
-Claude Code without the plugin: `claude mcp add --transport http fixlane https://fixlane.poparecon.com/mcp`.
+Claude Code without the plugin: `claude mcp add --transport http fixlane-security https://fixlane.poparecon.com/mcp`.
 
 ## Privacy Policy
 
