@@ -1,11 +1,11 @@
 {
-  "name": "fixlane",
+  "name": "fixlane-security",
   "interface": {
-    "displayName": "Fixlane"
+    "displayName": "Fixlane Security"
   },
   "plugins": [
     {
-      "name": "fixlane",
+      "name": "fixlane-security",
       "source": {
         "source": "local",
         "path": "./"

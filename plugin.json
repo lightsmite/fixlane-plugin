@@ -1,6 +1,6 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "fixlane",
+  "name": "fixlane-security",
   "version": "1.0.0",
   "description": "Check the developer software on your machine against known security incidents and get reviewed fix procedures, from the public Fixlane server.",
   "author": {
@@ -14,7 +14,7 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Fixlane",
+        "displayName": "Fixlane Security",
         "shortDescription": "Security fixes for your tools",
         "longDescription": "Fixlane checks the developer software on your computer against known, reviewed security incidents. Ask whether a program such as Chrome, Node.js or VS Code is safe, or let the assistant list what is installed (names and versions only) and compare it with the versions that fix each incident. For every affected program Fixlane returns a reviewed fix procedure: a read-only check first, then the update, which the assistant shows you and runs only after you agree. Phones get manual steps only. The data is public and read-only, no account is needed and nothing you ask is stored. Fixlane covers actively exploited vulnerabilities and malicious packages in developer tools; it is not a general antivirus and does not cover every program.",
         "developerName": "lightsmite",

@@ -1,5 +1,5 @@
 {
-  "name": "fixlane",
+  "name": "fixlane-security",
   "description": "Fixlane: known security incidents in developer software, with reviewed fix procedures.",
   "owner": {
     "name": "lightsmite",
@@ -7,7 +7,7 @@
   },
   "plugins": [
     {
-      "name": "fixlane",
+      "name": "fixlane-security",
       "source": "./",
       "description": "Check the developer software on your machine against known security incidents and get reviewed fix procedures.",
       "category": "security",

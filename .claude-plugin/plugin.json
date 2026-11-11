@@ -1,6 +1,6 @@
 {
-  "name": "fixlane",
-  "displayName": "Fixlane",
+  "name": "fixlane-security",
+  "displayName": "Fixlane Security",
   "version": "1.0.0",
   "description": "Check the developer software on your machine against known security incidents and get reviewed fix procedures, from the public Fixlane server.",
   "author": {

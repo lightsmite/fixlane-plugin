@@ -1,4 +1,4 @@
-# Fixlane
+# Fixlane Security
 
 Fixlane tells you whether the developer software on your computer has known security problems, and gives your AI assistant a reviewed procedure to fix each one. It is a plugin for Claude Code, Claude, Codex and ChatGPT, and a remote [MCP](https://modelcontextprotocol.io) server that works with any MCP client.
 
@@ -31,14 +31,14 @@ Claude Code:
 
 ```
 /plugin marketplace add lightsmite/fixlane-plugin
-/plugin install fixlane@fixlane
+/plugin install fixlane-security@fixlane-security
 ```
 
 Codex:
 
 ```
 codex plugin marketplace add lightsmite/fixlane-plugin
-codex plugin add fixlane@fixlane
+codex plugin add fixlane-security@fixlane-security
 ```
 
 Any other MCP client (Streamable HTTP, no authentication):
